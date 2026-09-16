@@ -57,7 +57,7 @@ p {
   align-items: center;
 }
 
-.navbar_frame.search_box .category_list {
+.navbar_frame .search_box .category_list {
   width: 166px;
   height: 30px;
 
@@ -89,7 +89,7 @@ p {
   outline: none;
 
   font-family: "Jost";
-  font-style: Regular;
+  font-style: normal;
   font-size: 15px;
   font-weight: 400;
   line-height: 22px;
@@ -122,7 +122,7 @@ p {
 
   display: flex;
   font-family: "Jost";
-  font-style: Regular;
+  font-style: normal;
   font-size: 15px;
   font-weight: 400;
   line-height: 22px;
@@ -187,7 +187,7 @@ p {
   color: rgba(255, 255, 255, 1);
 
   font-family: "Jost";
-  font-style: Regular;
+  font-style: normal;
   font-size: 15px;
   font-weight: 400;
   line-height: 22px;
@@ -199,7 +199,7 @@ p {
   color: rgba(255, 255, 255, 1);
 
   font-family: "Jost";
-  font-style: Regular;
+  font-style: normal;
   font-size: 15px;
   font-weight: 500;
   line-height: 22px;
@@ -228,7 +228,7 @@ p {
   background: rgb(245, 195, 75);
 
   color: rgb(11, 30, 64);
-  font-family: Just;
+  font-family: "Jost";
   font-size: 8px;
   font-weight: 700;
   line-height: 10px;
@@ -300,7 +300,7 @@ p {
 .navbar_frame .sorting_menu span {
   margin-left: 10px;
   color: rgb(255, 255, 255);
-  font-family: Just;
+  font-family: "Jost";
   font-size: 16px;
   font-weight: 400;
 }
@@ -309,7 +309,7 @@ p {
   color: rgba(255, 255, 255, 1);
 
   font-family: "Jost";
-  font-style: Medium;
+  font-style: normal;
   font-size: 16px;
   font-weight: 500;
   line-height: 28px;
@@ -327,11 +327,55 @@ p {
   background: #ffffff;
   border-radius: 6px;
 
-  font-family: "Just";
+  font-family: "Jost";
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
   line-height: 22px;
 
   color: #041e42;
+}
+
+@media (max-width: 900px) {
+  .navbar_frame {
+    height: auto;
+  }
+
+  .navbar_frame .container {
+    width: 100%;
+    padding: 16px;
+  }
+
+  .navbar_frame .navbar_top .nav_top_menu {
+    height: auto;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+
+  .nav_top_menu .main_logo {
+    margin-right: 0;
+  }
+
+  .navbar_frame .navbar_top .nav_search_frame {
+    order: 3;
+    width: 100%;
+  }
+
+  .navbar_frame .search_box {
+    width: 100%;
+  }
+
+  .navbar_frame .search_box input {
+    min-width: 0;
+    width: 100%;
+  }
+
+  .navbar_frame .navbar_bott {
+    width: 100%;
+    overflow-x: auto;
+  }
+
+  .navbar_frame .navbar_bott_menu_box {
+    min-width: 760px;
+  }
 }
