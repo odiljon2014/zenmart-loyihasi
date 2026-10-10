@@ -12,8 +12,8 @@
   margin-left: 160px;
 }
 
-.shop_page .tepa_sozlar :hover {
-  border: 1px solid black;
+.shop_page .tepa_sozl:hover {
+  border-bottom: 1px solid black;
 }
 
 .shop_page .tepa_soz {
@@ -301,11 +301,12 @@
   align-items: center;
 }
 
-.shop_page .shop_model:hover {
+.shop_page .shop_model div:hover {
   box-sizing: border-box;
   border: 1px solid rgba(234, 234, 234, 1);
   border-radius: 6px;
   background: rgba(68, 50, 151, 1);
+  color: white;
 }
 
 .shop_page .shop_model div {
@@ -505,6 +506,10 @@
   background: rgba(234, 234, 234, 1);
 }
 
+.container .laptop_frame .selling_product_frame {
+  margin-top: 20px;
+}
+
 .container .laptop_frame .laptop_bott select {
   margin-top: 20px;
   margin-left: 40px;
@@ -587,6 +592,7 @@
   flex-direction: column;
 
   border: 1px solid whitesmoke;
+  cursor: pointer;
 }
 
 .container .laptop_boxes .laptop_box img {

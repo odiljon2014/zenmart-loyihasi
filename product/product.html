@@ -24,6 +24,7 @@
 
     <link rel="stylesheet" href="../css/command.css" />
     <link rel="stylesheet" href="../css/product_all.css" />
+    <link rel="stylesheet" href="../homepage/home.html" />
   </head>
 
   <body>
@@ -33,7 +34,7 @@
       <div class="container">
         <div class="navbar_top">
           <div class="nav_top_menu">
-            <a class="main_logo" href="../index.html">
+            <a class="main_logo" href="../homepage/home.html">
               <img src="../images,icons/png/logo.png" alt="Zenmart" />
             </a>
 
@@ -54,12 +55,16 @@
                   class="input"
                   placeholder="Search products…"
                 />
+
+                <div class="search_icon_box">
+                  <img src="../images,icons/svg/search.svg" alt="" />
+                </div>
               </div>
             </div>
 
             <div class="nav_top_menu">
               <div class="top_menu_box">
-                <a href="./other 2/log in.html" class="top_menu_box">
+                <a href="../other 2/log in.html" class="top_menu_box">
                   <div class="box_icon_box">
                     <img src="../images,icons/svg/heart.svg" alt="Wishlist" />
                   </div>
@@ -70,7 +75,7 @@
                   </div>
                 </a>
 
-                <a href="./other 2/log in.html" class="top_menu_box">
+                <a href="../other 2/log in.html" class="top_menu_box">
                   <div class="box_icon_box">
                     <img src="../images,icons/svg/profile.svg" alt="Account" />
                   </div>
@@ -101,8 +106,6 @@
           </div>
         </div>
 
-        <!-- Bottom navbar -->
-
         <div class="navbar_bott">
           <div class="navbar_bott_menu_box">
             <div class="browse_box">
@@ -111,7 +114,7 @@
             </div>
 
             <div class="navbar_route_menu">
-              <a href="../index.html">Home</a>
+              <a href="../homepage/home.html">Home</a>
               <a href="../product/product.html" class="title">Shop</a>
               <a href="../order/cart.html">Orders</a>
               <a href="../other 1/about.html">About</a>
@@ -619,20 +622,26 @@
 
           <div class="select_laptop_frame">
             <div class="laptop_bott">
-              <select name="price" id="price">
+              <select name="" id="">
+                <option value="" selected>price</option>
+                <option value="">brand</option>
+                <option value="">color</option>
+              </select>
+            </div>
+
+            <div class="laptop_bott">
+              <select name="" id="">
+                <option value="" selected>brand</option>
+                <option value="">color</option>
                 <option value="">price</option>
               </select>
             </div>
 
             <div class="laptop_bott">
-              <select name="brand" id="brand">
+              <select name="" id="">
+                <option value="" selected>color</option>
                 <option value="">brand</option>
-              </select>
-            </div>
-
-            <div class="laptop_bott">
-              <select name="color" id="color">
-                <option value="">color</option>
+                <option value="">price</option>
               </select>
             </div>
           </div>
@@ -642,10 +651,284 @@
           <div class="selling_product_frame">
             <div class="container">
               <div class="product_wrapper">
-                <a href="../product/choosenProduct.html">
-                  <div class="laptop_boxes">
-                    <!-- Laptop 1 -->
-                    <div class="laptop_box">
+                <div class="laptop_boxes">
+                  <!-- Laptop 1 -->
+                  <div class="laptop_box">
+                    <div class="laptop_image_box">
+                      <img
+                        src="../images,icons/png/lenovo.png"
+                        alt="Lenovo laptop"
+                        style="height: 175px"
+                      />
+
+                      <div class="hover_box">
+                        <button>Add to Cart</button>
+                      </div>
+                    </div>
+
+                    <div class="product_content_box">
+                      <span class="product_title"> Lenovo </span>
+
+                      <a href="">
+                        <p class="product_desc">
+                          Lenovo IdeaPad 3 15.6" Laptop - Sand Intel Core
+                          i7-1165G7...
+                        </p>
+                      </a>
+
+                      <div class="review_box">
+                        <img
+                          src="../images,icons/svg/review.svg"
+                          alt="Review"
+                        />
+                        <img
+                          src="../images,icons/svg/review.svg"
+                          alt="Review"
+                        />
+                        <img
+                          src="../images,icons/svg/review.svg"
+                          alt="Review"
+                        />
+                        <img
+                          src="../images,icons/svg/review.svg"
+                          alt="Review"
+                        />
+                        <img
+                          src="../images,icons/svg/review.svg"
+                          alt="Review"
+                        />
+                        <span>3,014 reviews</span>
+                      </div>
+
+                      <div class="price_box">
+                        <strong>$32.50</strong>
+                        <span>$45</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Laptop 2 -->
+
+                  <div class="laptop_box">
+                    <a href="">
+                      <div class="notebook_img_box">
+                        <img
+                          src="../images,icons/png/asus.png"
+                          alt="ASUS laptop"
+                        />
+
+                        <div class="hover_box">
+                          <button>Add to Cart</button>
+                        </div>
+                      </div>
+                    </a>
+
+                    <div class="product_content_box">
+                      <span class="product_title"> Acer </span>
+
+                      <a href="">
+                        <p class="product_desc">
+                          ASUS TUF Dash 15 15.6" Gaming Laptop - Grey Intel Core
+                          i7-11370H/512GB SSD..
+                        </p>
+                      </a>
+
+                      <div class="review_box">
+                        <img
+                          src="../images,icons/svg/review.svg"
+                          alt="Review"
+                        />
+                        <img
+                          src="../images,icons/svg/review.svg"
+                          alt="Review"
+                        />
+                        <img
+                          src="../images,icons/svg/review.svg"
+                          alt="Review"
+                        />
+                        <img
+                          src="../images,icons/svg/review.svg"
+                          alt="Review"
+                        />
+                        <img
+                          src="../images,icons/svg/review.svg"
+                          alt="Review"
+                        />
+                        <span>3,014 reviews</span>
+                      </div>
+
+                      <div class="price_box">
+                        <strong>$32.50</strong>
+                        <span>$45</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Laptop 3 -->
+
+                  <div class="laptop_box">
+                    <a href="">
+                      <div class="laptop_img_box">
+                        <img
+                          src="../images,icons/png/sony_laptop.png"
+                          alt="Sony laptop"
+                        />
+
+                        <div class="hover_box">
+                          <button>Add to Cart</button>
+                        </div>
+                      </div>
+                    </a>
+
+                    <div class="product_content_box">
+                      <span class="product_title"> Sony </span>
+
+                      <a href="">
+                        <p class="product_desc">
+                          Microsoft Surface Laptop Go 12.4" Multi-Touch - Intel
+                          Core i5,...
+                        </p>
+                      </a>
+
+                      <div class="review_box">
+                        <img
+                          src="../images,icons/svg/review.svg"
+                          alt="Review"
+                        />
+                        <img src="../images,icons/svg/review.svg" alt="" />
+                        <img src="../images,icons/svg/review.svg" alt="" />
+                        <img src="../images,icons/svg/review.svg" alt="" />
+                        <img src="../images,icons/svg/review.svg" alt="" />
+                        <span>3,014 reviews</span>
+                      </div>
+
+                      <div class="price_box">
+                        <strong>$399.00</strong>
+                        <span>$45</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Laptop 4 -->
+
+                  <div class="laptop_box">
+                    <a href="">
+                      <div class="laptop_img_box">
+                        <img
+                          src="../images,icons/png/acer_silver.png"
+                          alt="Acer laptop"
+                        />
+
+                        <div class="hover_box">
+                          <button>Add to Cart</button>
+                        </div>
+                      </div>
+                    </a>
+
+                    <div class="product_content_box">
+                      <span class="product_title"> Eastsport </span>
+
+                      <a href="">
+                        <p class="product_desc">
+                          Acer Aspire 5 15.6" Laptop - Silver Intel Core
+                          i5-1135G7...
+                        </p>
+                      </a>
+
+                      <div class="review_box">
+                        <img
+                          src="../images,icons/svg/review.svg"
+                          alt="Review"
+                        />
+                        <img
+                          src="../images,icons/svg/review.svg"
+                          alt="Review"
+                        />
+                        <img
+                          src="../images,icons/svg/review.svg"
+                          alt="Review"
+                        />
+                        <img
+                          src="../images,icons/svg/review.svg"
+                          alt="Review"
+                        />
+                        <img
+                          src="../images,icons/svg/review.svg"
+                          alt="Review"
+                        />
+                        <span>3,014 reviews</span>
+                      </div>
+
+                      <div class="price_box">
+                        <strong>$32.50</strong>
+                        <span>$45</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Laptop 5 -->
+
+                  <div class="laptop_box">
+                    <a href="">
+                      <div class="laptop_img_box">
+                        <img
+                          src="../images,icons/png/asus_laptop.png"
+                          alt="ASUS laptop"
+                        />
+
+                        <div class="hover_box">
+                          <button>Add to Cart</button>
+                        </div>
+                      </div>
+                    </a>
+
+                    <div class="product_content_box">
+                      <span class="product_title"> Rolex </span>
+
+                      <a href="">
+                        <p class="product_desc">
+                          HP 14" Laptop - Silver Intel Core i3-1115G4/512GB
+                          SSD...
+                        </p>
+                      </a>
+
+                      <div class="review_box">
+                        <img
+                          src="../images,icons/svg/review.svg"
+                          alt="Review"
+                        />
+                        <img
+                          src="../images,icons/svg/review.svg"
+                          alt="Review"
+                        />
+                        <img
+                          src="../images,icons/svg/review.svg"
+                          alt="Review"
+                        />
+                        <img
+                          src="../images,icons/svg/review.svg"
+                          alt="Review"
+                        />
+                        <img
+                          src="../images,icons/svg/review.svg"
+                          alt="Review"
+                        />
+                        <span>3,014 reviews</span>
+                      </div>
+
+                      <div class="price_box">
+                        <strong>$18.144</strong>
+                        <span>$45</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="laptop_boxes">
+                  <!-- Laptop 6 -->
+
+                  <div class="laptop_box">
+                    <a href="">
                       <div class="laptop_image_box">
                         <img
                           src="../images,icons/png/lenovo.png"
@@ -657,839 +940,563 @@
                           <button>Add to Cart</button>
                         </div>
                       </div>
+                    </a>
 
-                      <div class="product_content_box">
-                        <span class="product_title"> Lenovo </span>
+                    <div class="product_content_box">
+                      <span class="product_title"> Lenovo </span>
 
-                        <a href="">
-                          <p class="product_desc">
-                            Lenovo IdeaPad 3 15.6" Laptop - Sand Intel Core
-                            i7-1165G7...
-                          </p>
-                        </a>
-
-                        <div class="review_box">
-                          <img
-                            src="../images,icons/svg/review.svg"
-                            alt="Review"
-                          />
-                          <img
-                            src="../images,icons/svg/review.svg"
-                            alt="Review"
-                          />
-                          <img
-                            src="../images,icons/svg/review.svg"
-                            alt="Review"
-                          />
-                          <img
-                            src="../images,icons/svg/review.svg"
-                            alt="Review"
-                          />
-                          <img
-                            src="../images,icons/svg/review.svg"
-                            alt="Review"
-                          />
-                          <span>3,014 reviews</span>
-                        </div>
-
-                        <div class="price_box">
-                          <strong>$32.50</strong>
-                          <span>$45</span>
-                        </div>
-                      </div>
-                    </div>
-
-                    <!-- Laptop 2 -->
-
-                    <div class="laptop_box">
                       <a href="">
-                        <div class="notebook_img_box">
-                          <img
-                            src="../images,icons/png/asus.png"
-                            alt="ASUS laptop"
-                          />
-
-                          <div class="hover_box">
-                            <button>Add to Cart</button>
-                          </div>
-                        </div>
+                        <p class="product_desc">
+                          Lenovo IdeaPad 3 15.6" Laptop - Sand Intel Core
+                          i7-1165G7...
+                        </p>
                       </a>
 
-                      <div class="product_content_box">
-                        <span class="product_title"> Acer </span>
-
-                        <a href="">
-                          <p class="product_desc">
-                            ASUS TUF Dash 15 15.6" Gaming Laptop - Grey Intel
-                            Core i7-11370H/512GB SSD..
-                          </p>
-                        </a>
-
-                        <div class="review_box">
-                          <img
-                            src="../images,icons/svg/review.svg"
-                            alt="Review"
-                          />
-                          <img
-                            src="../images,icons/svg/review.svg"
-                            alt="Review"
-                          />
-                          <img
-                            src="../images,icons/svg/review.svg"
-                            alt="Review"
-                          />
-                          <img
-                            src="../images,icons/svg/review.svg"
-                            alt="Review"
-                          />
-                          <img
-                            src="../images,icons/svg/review.svg"
-                            alt="Review"
-                          />
-                          <span>3,014 reviews</span>
-                        </div>
-
-                        <div class="price_box">
-                          <strong>$32.50</strong>
-                          <span>$45</span>
-                        </div>
+                      <div class="review_box">
+                        <img
+                          src="../images,icons/svg/review.svg"
+                          alt="Review"
+                        />
+                        <img
+                          src="../images,icons/svg/review.svg"
+                          alt="Review"
+                        />
+                        <img
+                          src="../images,icons/svg/review.svg"
+                          alt="Review"
+                        />
+                        <img
+                          src="../images,icons/svg/review.svg"
+                          alt="Review"
+                        />
+                        <img
+                          src="../images,icons/svg/review.svg"
+                          alt="Review"
+                        />
+                        <span>3,014 reviews</span>
                       </div>
-                    </div>
 
-                    <!-- Laptop 3 -->
-
-                    <div class="laptop_box">
-                      <a href="">
-                        <div class="laptop_img_box">
-                          <img
-                            src="../images,icons/png/sony_laptop.png"
-                            alt="Sony laptop"
-                          />
-
-                          <div class="hover_box">
-                            <button>Add to Cart</button>
-                          </div>
-                        </div>
-                      </a>
-
-                      <div class="product_content_box">
-                        <span class="product_title"> Sony </span>
-
-                        <a href="">
-                          <p class="product_desc">
-                            Microsoft Surface Laptop Go 12.4" Multi-Touch -
-                            Intel Core i5,...
-                          </p>
-                        </a>
-
-                        <div class="review_box">
-                          <img
-                            src="../images,icons/svg/review.svg"
-                            alt="Review"
-                          />
-                          <img src="../images,icons/svg/review.svg" alt="" />
-                          <img src="../images,icons/svg/review.svg" alt="" />
-                          <img src="../images,icons/svg/review.svg" alt="" />
-                          <img src="../images,icons/svg/review.svg" alt="" />
-                          <span>3,014 reviews</span>
-                        </div>
-
-                        <div class="price_box">
-                          <strong>$399.00</strong>
-                          <span>$45</span>
-                        </div>
-                      </div>
-                    </div>
-
-                    <!-- Laptop 4 -->
-
-                    <div class="laptop_box">
-                      <a href="">
-                        <div class="laptop_img_box">
-                          <img
-                            src="../images,icons/png/acer_silver.png"
-                            alt="Acer laptop"
-                          />
-
-                          <div class="hover_box">
-                            <button>Add to Cart</button>
-                          </div>
-                        </div>
-                      </a>
-
-                      <div class="product_content_box">
-                        <span class="product_title"> Eastsport </span>
-
-                        <a href="">
-                          <p class="product_desc">
-                            Acer Aspire 5 15.6" Laptop - Silver Intel Core
-                            i5-1135G7...
-                          </p>
-                        </a>
-
-                        <div class="review_box">
-                          <img
-                            src="../images,icons/svg/review.svg"
-                            alt="Review"
-                          />
-                          <img
-                            src="../images,icons/svg/review.svg"
-                            alt="Review"
-                          />
-                          <img
-                            src="../images,icons/svg/review.svg"
-                            alt="Review"
-                          />
-                          <img
-                            src="../images,icons/svg/review.svg"
-                            alt="Review"
-                          />
-                          <img
-                            src="../images,icons/svg/review.svg"
-                            alt="Review"
-                          />
-                          <span>3,014 reviews</span>
-                        </div>
-
-                        <div class="price_box">
-                          <strong>$32.50</strong>
-                          <span>$45</span>
-                        </div>
-                      </div>
-                    </div>
-
-                    <!-- Laptop 5 -->
-
-                    <div class="laptop_box">
-                      <a href="">
-                        <div class="laptop_img_box">
-                          <img
-                            src="../images,icons/png/asus_laptop.png"
-                            alt="ASUS laptop"
-                          />
-
-                          <div class="hover_box">
-                            <button>Add to Cart</button>
-                          </div>
-                        </div>
-                      </a>
-
-                      <div class="product_content_box">
-                        <span class="product_title"> Rolex </span>
-
-                        <a href="">
-                          <p class="product_desc">
-                            HP 14" Laptop - Silver Intel Core i3-1115G4/512GB
-                            SSD...
-                          </p>
-                        </a>
-
-                        <div class="review_box">
-                          <img
-                            src="../images,icons/svg/review.svg"
-                            alt="Review"
-                          />
-                          <img
-                            src="../images,icons/svg/review.svg"
-                            alt="Review"
-                          />
-                          <img
-                            src="../images,icons/svg/review.svg"
-                            alt="Review"
-                          />
-                          <img
-                            src="../images,icons/svg/review.svg"
-                            alt="Review"
-                          />
-                          <img
-                            src="../images,icons/svg/review.svg"
-                            alt="Review"
-                          />
-                          <span>3,014 reviews</span>
-                        </div>
-
-                        <div class="price_box">
-                          <strong>$18.144</strong>
-                          <span>$45</span>
-                        </div>
+                      <div class="price_box">
+                        <strong>$32.50</strong>
+                        <span>$45</span>
                       </div>
                     </div>
                   </div>
 
-                  <div class="laptop_boxes">
-                    <!-- Laptop 6 -->
+                  <!-- Laptop 7 -->
 
-                    <div class="laptop_box">
-                      <a href="">
-                        <div class="laptop_image_box">
-                          <img
-                            src="../images,icons/png/lenovo.png"
-                            alt="Lenovo laptop"
-                            style="height: 175px"
-                          />
+                  <div class="laptop_box">
+                    <a href="">
+                      <div class="laptop_img_box">
+                        <img
+                          src="../images,icons/png/nitro_laptop.png"
+                          alt="Acer Nitro laptop"
+                        />
 
-                          <div class="hover_box">
-                            <button>Add to Cart</button>
-                          </div>
-                        </div>
-                      </a>
-
-                      <div class="product_content_box">
-                        <span class="product_title"> Lenovo </span>
-
-                        <a href="">
-                          <p class="product_desc">
-                            Lenovo IdeaPad 3 15.6" Laptop - Sand Intel Core
-                            i7-1165G7...
-                          </p>
-                        </a>
-
-                        <div class="review_box">
-                          <img
-                            src="../images,icons/svg/review.svg"
-                            alt="Review"
-                          />
-                          <img
-                            src="../images,icons/svg/review.svg"
-                            alt="Review"
-                          />
-                          <img
-                            src="../images,icons/svg/review.svg"
-                            alt="Review"
-                          />
-                          <img
-                            src="../images,icons/svg/review.svg"
-                            alt="Review"
-                          />
-                          <img
-                            src="../images,icons/svg/review.svg"
-                            alt="Review"
-                          />
-                          <span>3,014 reviews</span>
-                        </div>
-
-                        <div class="price_box">
-                          <strong>$32.50</strong>
-                          <span>$45</span>
+                        <div class="hover_box">
+                          <button>Add to Cart</button>
                         </div>
                       </div>
-                    </div>
+                    </a>
 
-                    <!-- Laptop 7 -->
+                    <div class="product_content_box">
+                      <span class="product_title"> Acer </span>
 
-                    <div class="laptop_box">
                       <a href="">
-                        <div class="laptop_img_box">
-                          <img
-                            src="../images,icons/png/nitro_laptop.png"
-                            alt="Acer Nitro laptop"
-                          />
-
-                          <div class="hover_box">
-                            <button>Add to Cart</button>
-                          </div>
-                        </div>
+                        <p class="product_desc">
+                          Acer Nitro 5 15.6" Gaming Laptop - Black
+                        </p>
                       </a>
 
-                      <div class="product_content_box">
-                        <span class="product_title"> Acer </span>
-
-                        <a href="">
-                          <p class="product_desc">
-                            Acer Nitro 5 15.6" Gaming Laptop - Black
-                          </p>
-                        </a>
-
-                        <div class="review_box">
-                          <img
-                            src="../images,icons/svg/review.svg"
-                            alt="Review"
-                          />
-                          <img
-                            src="../images,icons/svg/review.svg"
-                            alt="Review"
-                          />
-                          <img
-                            src="../images,icons/svg/review.svg"
-                            alt="Review"
-                          />
-                          <img
-                            src="../images,icons/svg/review.svg"
-                            alt="Review"
-                          />
-                          <img
-                            src="../images,icons/svg/review.svg"
-                            alt="Review"
-                          />
-                          <span>3,014 reviews</span>
-                        </div>
-
-                        <div class="price_box">
-                          <strong>$32.50</strong>
-                          <span>$45</span>
-                        </div>
+                      <div class="review_box">
+                        <img
+                          src="../images,icons/svg/review.svg"
+                          alt="Review"
+                        />
+                        <img
+                          src="../images,icons/svg/review.svg"
+                          alt="Review"
+                        />
+                        <img
+                          src="../images,icons/svg/review.svg"
+                          alt="Review"
+                        />
+                        <img
+                          src="../images,icons/svg/review.svg"
+                          alt="Review"
+                        />
+                        <img
+                          src="../images,icons/svg/review.svg"
+                          alt="Review"
+                        />
+                        <span>3,014 reviews</span>
                       </div>
-                    </div>
 
-                    <!-- Laptop 8 -->
-
-                    <div class="laptop_box">
-                      <a href="">
-                        <div class="laptop_img_box">
-                          <img
-                            src="../images,icons/png/sony_laptop.png"
-                            alt="Sony laptop"
-                          />
-
-                          <div class="hover_box">
-                            <button>Add to Cart</button>
-                          </div>
-                        </div>
-                      </a>
-
-                      <div class="product_content_box">
-                        <span class="product_title"> Sony </span>
-
-                        <a href="">
-                          <p class="product_desc">
-                            Microsoft Surface Laptop Go 12.4" Multi-Touch -
-                            Intel Core i5,...
-                          </p>
-                        </a>
-
-                        <div class="review_box">
-                          <img
-                            src="../images,icons/svg/review.svg"
-                            alt="Review"
-                          />
-                          <img
-                            src="../images,icons/svg/review.svg"
-                            alt="Review"
-                          />
-                          <img
-                            src="../images,icons/svg/review.svg"
-                            alt="Review"
-                          />
-                          <img
-                            src="../images,icons/svg/review.svg"
-                            alt="Review"
-                          />
-                          <img
-                            src="../images,icons/svg/review.svg"
-                            alt="Review"
-                          />
-                          <span>3,014 reviews</span>
-                        </div>
-
-                        <div class="price_box">
-                          <strong>$399.00</strong>
-                          <span>$45</span>
-                        </div>
-                      </div>
-                    </div>
-
-                    <!-- Laptop 9 -->
-
-                    <div class="laptop_box">
-                      <a href="">
-                        <div class="laptop_img_box">
-                          <img
-                            src="../images,icons/png/acer_silver.png"
-                            alt="Acer laptop"
-                          />
-
-                          <div class="hover_box">
-                            <button>Add to Cart</button>
-                          </div>
-                        </div>
-                      </a>
-
-                      <div class="product_content_box">
-                        <span class="product_title"> Eastsport </span>
-
-                        <a href="">
-                          <p class="product_desc">
-                            Acer Aspire 5 15.6" Laptop - Silver Intel Core
-                            i5-1135G7...
-                          </p>
-                        </a>
-
-                        <div class="review_box">
-                          <img
-                            src="../images,icons/svg/review.svg"
-                            alt="Review"
-                          />
-                          <img
-                            src="../images,icons/svg/review.svg"
-                            alt="Review"
-                          />
-                          <img
-                            src="../images,icons/svg/review.svg"
-                            alt="Review"
-                          />
-                          <img
-                            src="../images,icons/svg/review.svg"
-                            alt="Review"
-                          />
-                          <img
-                            src="../images,icons/svg/review.svg"
-                            alt="Review"
-                          />
-                          <span>3,014 reviews</span>
-                        </div>
-
-                        <div class="price_box">
-                          <strong>$32.50</strong>
-                          <span>$45</span>
-                        </div>
-                      </div>
-                    </div>
-
-                    <!-- Laptop 10 -->
-
-                    <div class="laptop_box">
-                      <a href="">
-                        <div class="laptop_img_box">
-                          <img
-                            src="../images,icons/png/asus_laptop.png"
-                            alt="ASUS laptop"
-                          />
-
-                          <div class="hover_box">
-                            <button>Add to Cart</button>
-                          </div>
-                        </div>
-                      </a>
-
-                      <div class="product_content_box">
-                        <span class="product_title"> Rolex </span>
-
-                        <a href="">
-                          <p class="product_desc">
-                            HP 14" Laptop - Silver Intel Core i3-1115G4/512GB
-                            SSD...
-                          </p>
-                        </a>
-
-                        <div class="review_box">
-                          <img
-                            src="../images,icons/svg/review.svg"
-                            alt="Review"
-                          />
-                          <img
-                            src="../images,icons/svg/review.svg"
-                            alt="Review"
-                          />
-                          <img
-                            src="../images,icons/svg/review.svg"
-                            alt="Review"
-                          />
-                          <img
-                            src="../images,icons/svg/review.svg"
-                            alt="Review"
-                          />
-                          <img
-                            src="../images,icons/svg/review.svg"
-                            alt="Review"
-                          />
-                          <span>3,014 reviews</span>
-                        </div>
-
-                        <div class="price_box">
-                          <strong>$18.144</strong>
-                          <span>$45</span>
-                        </div>
+                      <div class="price_box">
+                        <strong>$32.50</strong>
+                        <span>$45</span>
                       </div>
                     </div>
                   </div>
 
-                  <div class="laptop_boxes">
-                    <!-- Laptop 10 -->
+                  <!-- Laptop 8 -->
 
-                    <div class="laptop_box">
-                      <a href="">
-                        <div class="laptop_image_box">
-                          <img
-                            src="../images,icons/png/lenovo.png"
-                            alt="Lenovo laptop"
-                            style="height: 175px"
-                          />
+                  <div class="laptop_box">
+                    <a href="">
+                      <div class="laptop_img_box">
+                        <img
+                          src="../images,icons/png/sony_laptop.png"
+                          alt="Sony laptop"
+                        />
 
-                          <div class="hover_box">
-                            <button>Add to Cart</button>
-                          </div>
-                        </div>
-                      </a>
-
-                      <div class="product_content_box">
-                        <span class="product_title"> Lenovo </span>
-
-                        <a href="">
-                          <p class="product_desc">
-                            Lenovo IdeaPad 3 15.6" Laptop - Sand Intel Core
-                            i7-1165G7...
-                          </p>
-                        </a>
-
-                        <div class="review_box">
-                          <img
-                            src="../images,icons/svg/review.svg"
-                            alt="Review"
-                          />
-                          <img
-                            src="../images,icons/svg/review.svg"
-                            alt="Review"
-                          />
-                          <img
-                            src="../images,icons/svg/review.svg"
-                            alt="Review"
-                          />
-                          <img
-                            src="../images,icons/svg/review.svg"
-                            alt="Review"
-                          />
-                          <img
-                            src="../images,icons/svg/review.svg"
-                            alt="Review"
-                          />
-                          <span>3,014 reviews</span>
-                        </div>
-
-                        <div class="price_box">
-                          <strong>$32.50</strong>
-                          <span>$45</span>
+                        <div class="hover_box">
+                          <button>Add to Cart</button>
                         </div>
                       </div>
-                    </div>
+                    </a>
 
-                    <!-- Laptop 11 -->
+                    <div class="product_content_box">
+                      <span class="product_title"> Sony </span>
 
-                    <div class="laptop_box">
                       <a href="">
-                        <div class="laptop_img_box">
-                          <img
-                            src="../images,icons/png/nitro_laptop.png"
-                            alt="Acer Nitro laptop"
-                          />
-
-                          <div class="hover_box">
-                            <button>Add to Cart</button>
-                          </div>
-                        </div>
+                        <p class="product_desc">
+                          Microsoft Surface Laptop Go 12.4" Multi-Touch - Intel
+                          Core i5,...
+                        </p>
                       </a>
 
-                      <div class="product_content_box">
-                        <span class="product_title"> Acer </span>
-
-                        <a href="">
-                          <p class="product_desc">
-                            Acer Nitro 5 15.6" Gaming Laptop - Black
-                          </p>
-                        </a>
-
-                        <div class="review_box">
-                          <img
-                            src="../images,icons/svg/review.svg"
-                            alt="Review"
-                          />
-                          <img
-                            src="../images,icons/svg/review.svg"
-                            alt="Review"
-                          />
-                          <img
-                            src="../images,icons/svg/review.svg"
-                            alt="Review"
-                          />
-                          <img
-                            src="../images,icons/svg/review.svg"
-                            alt="Review"
-                          />
-                          <img
-                            src="../images,icons/svg/review.svg"
-                            alt="Review"
-                          />
-                          <span>3,014 reviews</span>
-                        </div>
-
-                        <div class="price_box">
-                          <strong>$32.50</strong>
-                          <span>$45</span>
-                        </div>
+                      <div class="review_box">
+                        <img
+                          src="../images,icons/svg/review.svg"
+                          alt="Review"
+                        />
+                        <img
+                          src="../images,icons/svg/review.svg"
+                          alt="Review"
+                        />
+                        <img
+                          src="../images,icons/svg/review.svg"
+                          alt="Review"
+                        />
+                        <img
+                          src="../images,icons/svg/review.svg"
+                          alt="Review"
+                        />
+                        <img
+                          src="../images,icons/svg/review.svg"
+                          alt="Review"
+                        />
+                        <span>3,014 reviews</span>
                       </div>
-                    </div>
 
-                    <!-- Laptop 12 -->
-
-                    <div class="laptop_box">
-                      <a href="">
-                        <div class="laptop_img_box">
-                          <img
-                            src="../images,icons/png/sony_laptop.png"
-                            alt="Sony laptop"
-                          />
-
-                          <div class="hover_box">
-                            <button>Add to Cart</button>
-                          </div>
-                        </div>
-                      </a>
-
-                      <div class="product_content_box">
-                        <span class="product_title"> Sony </span>
-
-                        <a href="">
-                          <p class="product_desc">
-                            Microsoft Surface Laptop Go 12.4" Multi-Touch -
-                            Intel Core i5,...
-                          </p>
-                        </a>
-
-                        <div class="review_box">
-                          <img
-                            src="../images,icons/svg/review.svg"
-                            alt="Review"
-                          />
-                          <img
-                            src="../images,icons/svg/review.svg"
-                            alt="Review"
-                          />
-                          <img
-                            src="../images,icons/svg/review.svg"
-                            alt="Review"
-                          />
-                          <img
-                            src="../images,icons/svg/review.svg"
-                            alt="Review"
-                          />
-                          <img
-                            src="../images,icons/svg/review.svg"
-                            alt="Review"
-                          />
-                          <span>3,014 reviews</span>
-                        </div>
-
-                        <div class="price_box">
-                          <strong>$399.00</strong>
-                          <span>$45</span>
-                        </div>
-                      </div>
-                    </div>
-
-                    <!-- Laptop 13 -->
-
-                    <div class="laptop_box">
-                      <a href="">
-                        <div class="laptop_img_box">
-                          <img
-                            src="../images,icons/png/acer_silver.png"
-                            alt="Acer laptop"
-                          />
-
-                          <div class="hover_box">
-                            <button>Add to Cart</button>
-                          </div>
-                        </div>
-                      </a>
-
-                      <div class="product_content_box">
-                        <span class="product_title"> Eastsport </span>
-
-                        <a href="">
-                          <p class="product_desc">
-                            Acer Aspire 5 15.6" Laptop - Silver Intel Core
-                            i5-1135G7...
-                          </p>
-                        </a>
-
-                        <div class="review_box">
-                          <img
-                            src="../images,icons/svg/review.svg"
-                            alt="Review"
-                          />
-                          <img
-                            src="../images,icons/svg/review.svg"
-                            alt="Review"
-                          />
-                          <img
-                            src="../images,icons/svg/review.svg"
-                            alt="Review"
-                          />
-                          <img
-                            src="../images,icons/svg/review.svg"
-                            alt="Review"
-                          />
-                          <img
-                            src="../images,icons/svg/review.svg"
-                            alt="Review"
-                          />
-                          <span>3,014 reviews</span>
-                        </div>
-
-                        <div class="price_box">
-                          <strong>$32.50</strong>
-                          <span>$45</span>
-                        </div>
-                      </div>
-                    </div>
-
-                    <!-- Laptop 14 -->
-
-                    <div class="laptop_box">
-                      <a href="">
-                        <div class="laptop_img_box">
-                          <img
-                            src="../images,icons/png/asus_laptop.png"
-                            alt="ASUS laptop"
-                          />
-
-                          <div class="hover_box">
-                            <button>Add to Cart</button>
-                          </div>
-                        </div>
-                      </a>
-
-                      <div class="product_content_box">
-                        <span class="product_title"> Rolex </span>
-
-                        <a href="">
-                          <p class="product_desc">
-                            HP 14" Laptop - Silver Intel Core i3-1115G4/512GB
-                            SSD...
-                          </p>
-                        </a>
-
-                        <div class="review_box">
-                          <img
-                            src="../images,icons/svg/review.svg"
-                            alt="Review"
-                          />
-                          <img
-                            src="../images,icons/svg/review.svg"
-                            alt="Review"
-                          />
-                          <img
-                            src="../images,icons/svg/review.svg"
-                            alt="Review"
-                          />
-                          <img
-                            src="../images,icons/svg/review.svg"
-                            alt="Review"
-                          />
-                          <img
-                            src="../images,icons/svg/review.svg"
-                            alt="Review"
-                          />
-                          <span>3,014 reviews</span>
-                        </div>
-
-                        <div class="price_box">
-                          <strong>$18.144</strong>
-                          <span>$45</span>
-                        </div>
+                      <div class="price_box">
+                        <strong>$399.00</strong>
+                        <span>$45</span>
                       </div>
                     </div>
                   </div>
-                </a>
+
+                  <!-- Laptop 9 -->
+
+                  <div class="laptop_box">
+                    <a href="">
+                      <div class="laptop_img_box">
+                        <img
+                          src="../images,icons/png/acer_silver.png"
+                          alt="Acer laptop"
+                        />
+
+                        <div class="hover_box">
+                          <button>Add to Cart</button>
+                        </div>
+                      </div>
+                    </a>
+
+                    <div class="product_content_box">
+                      <span class="product_title"> Eastsport </span>
+
+                      <a href="">
+                        <p class="product_desc">
+                          Acer Aspire 5 15.6" Laptop - Silver Intel Core
+                          i5-1135G7...
+                        </p>
+                      </a>
+
+                      <div class="review_box">
+                        <img
+                          src="../images,icons/svg/review.svg"
+                          alt="Review"
+                        />
+                        <img
+                          src="../images,icons/svg/review.svg"
+                          alt="Review"
+                        />
+                        <img
+                          src="../images,icons/svg/review.svg"
+                          alt="Review"
+                        />
+                        <img
+                          src="../images,icons/svg/review.svg"
+                          alt="Review"
+                        />
+                        <img
+                          src="../images,icons/svg/review.svg"
+                          alt="Review"
+                        />
+                        <span>3,014 reviews</span>
+                      </div>
+
+                      <div class="price_box">
+                        <strong>$32.50</strong>
+                        <span>$45</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Laptop 10 -->
+
+                  <div class="laptop_box">
+                    <a href="">
+                      <div class="laptop_img_box">
+                        <img
+                          src="../images,icons/png/asus_laptop.png"
+                          alt="ASUS laptop"
+                        />
+
+                        <div class="hover_box">
+                          <button>Add to Cart</button>
+                        </div>
+                      </div>
+                    </a>
+
+                    <div class="product_content_box">
+                      <span class="product_title"> Rolex </span>
+
+                      <a href="">
+                        <p class="product_desc">
+                          HP 14" Laptop - Silver Intel Core i3-1115G4/512GB
+                          SSD...
+                        </p>
+                      </a>
+
+                      <div class="review_box">
+                        <img
+                          src="../images,icons/svg/review.svg"
+                          alt="Review"
+                        />
+                        <img
+                          src="../images,icons/svg/review.svg"
+                          alt="Review"
+                        />
+                        <img
+                          src="../images,icons/svg/review.svg"
+                          alt="Review"
+                        />
+                        <img
+                          src="../images,icons/svg/review.svg"
+                          alt="Review"
+                        />
+                        <img
+                          src="../images,icons/svg/review.svg"
+                          alt="Review"
+                        />
+                        <span>3,014 reviews</span>
+                      </div>
+
+                      <div class="price_box">
+                        <strong>$18.144</strong>
+                        <span>$45</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="laptop_boxes">
+                  <!-- Laptop 10 -->
+
+                  <div class="laptop_box">
+                    <a href="">
+                      <div class="laptop_image_box">
+                        <img
+                          src="../images,icons/png/lenovo.png"
+                          alt="Lenovo laptop"
+                          style="height: 175px"
+                        />
+
+                        <div class="hover_box">
+                          <button>Add to Cart</button>
+                        </div>
+                      </div>
+                    </a>
+
+                    <div class="product_content_box">
+                      <span class="product_title"> Lenovo </span>
+
+                      <a href="">
+                        <p class="product_desc">
+                          Lenovo IdeaPad 3 15.6" Laptop - Sand Intel Core
+                          i7-1165G7...
+                        </p>
+                      </a>
+
+                      <div class="review_box">
+                        <img
+                          src="../images,icons/svg/review.svg"
+                          alt="Review"
+                        />
+                        <img
+                          src="../images,icons/svg/review.svg"
+                          alt="Review"
+                        />
+                        <img
+                          src="../images,icons/svg/review.svg"
+                          alt="Review"
+                        />
+                        <img
+                          src="../images,icons/svg/review.svg"
+                          alt="Review"
+                        />
+                        <img
+                          src="../images,icons/svg/review.svg"
+                          alt="Review"
+                        />
+                        <span>3,014 reviews</span>
+                      </div>
+
+                      <div class="price_box">
+                        <strong>$32.50</strong>
+                        <span>$45</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Laptop 11 -->
+
+                  <div class="laptop_box">
+                    <a href="">
+                      <div class="laptop_img_box">
+                        <img
+                          src="../images,icons/png/nitro_laptop.png"
+                          alt="Acer Nitro laptop"
+                        />
+
+                        <div class="hover_box">
+                          <button>Add to Cart</button>
+                        </div>
+                      </div>
+                    </a>
+
+                    <div class="product_content_box">
+                      <span class="product_title"> Acer </span>
+
+                      <a href="">
+                        <p class="product_desc">
+                          Acer Nitro 5 15.6" Gaming Laptop - Black
+                        </p>
+                      </a>
+
+                      <div class="review_box">
+                        <img
+                          src="../images,icons/svg/review.svg"
+                          alt="Review"
+                        />
+                        <img
+                          src="../images,icons/svg/review.svg"
+                          alt="Review"
+                        />
+                        <img
+                          src="../images,icons/svg/review.svg"
+                          alt="Review"
+                        />
+                        <img
+                          src="../images,icons/svg/review.svg"
+                          alt="Review"
+                        />
+                        <img
+                          src="../images,icons/svg/review.svg"
+                          alt="Review"
+                        />
+                        <span>3,014 reviews</span>
+                      </div>
+
+                      <div class="price_box">
+                        <strong>$32.50</strong>
+                        <span>$45</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Laptop 12 -->
+
+                  <div class="laptop_box">
+                    <a href="">
+                      <div class="laptop_img_box">
+                        <img
+                          src="../images,icons/png/sony_laptop.png"
+                          alt="Sony laptop"
+                        />
+
+                        <div class="hover_box">
+                          <button>Add to Cart</button>
+                        </div>
+                      </div>
+                    </a>
+
+                    <div class="product_content_box">
+                      <span class="product_title"> Sony </span>
+
+                      <a href="">
+                        <p class="product_desc">
+                          Microsoft Surface Laptop Go 12.4" Multi-Touch - Intel
+                          Core i5,...
+                        </p>
+                      </a>
+
+                      <div class="review_box">
+                        <img
+                          src="../images,icons/svg/review.svg"
+                          alt="Review"
+                        />
+                        <img
+                          src="../images,icons/svg/review.svg"
+                          alt="Review"
+                        />
+                        <img
+                          src="../images,icons/svg/review.svg"
+                          alt="Review"
+                        />
+                        <img
+                          src="../images,icons/svg/review.svg"
+                          alt="Review"
+                        />
+                        <img
+                          src="../images,icons/svg/review.svg"
+                          alt="Review"
+                        />
+                        <span>3,014 reviews</span>
+                      </div>
+
+                      <div class="price_box">
+                        <strong>$399.00</strong>
+                        <span>$45</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Laptop 13 -->
+
+                  <div class="laptop_box">
+                    <a href="">
+                      <div class="laptop_img_box">
+                        <img
+                          src="../images,icons/png/acer_silver.png"
+                          alt="Acer laptop"
+                        />
+
+                        <div class="hover_box">
+                          <button>Add to Cart</button>
+                        </div>
+                      </div>
+                    </a>
+
+                    <div class="product_content_box">
+                      <span class="product_title"> Eastsport </span>
+
+                      <a href="">
+                        <p class="product_desc">
+                          Acer Aspire 5 15.6" Laptop - Silver Intel Core
+                          i5-1135G7...
+                        </p>
+                      </a>
+
+                      <div class="review_box">
+                        <img
+                          src="../images,icons/svg/review.svg"
+                          alt="Review"
+                        />
+                        <img
+                          src="../images,icons/svg/review.svg"
+                          alt="Review"
+                        />
+                        <img
+                          src="../images,icons/svg/review.svg"
+                          alt="Review"
+                        />
+                        <img
+                          src="../images,icons/svg/review.svg"
+                          alt="Review"
+                        />
+                        <img
+                          src="../images,icons/svg/review.svg"
+                          alt="Review"
+                        />
+                        <span>3,014 reviews</span>
+                      </div>
+
+                      <div class="price_box">
+                        <strong>$32.50</strong>
+                        <span>$45</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Laptop 14 -->
+
+                  <div class="laptop_box">
+                    <a href="">
+                      <div class="laptop_img_box">
+                        <img
+                          src="../images,icons/png/asus_laptop.png"
+                          alt="ASUS laptop"
+                        />
+
+                        <div class="hover_box">
+                          <button>Add to Cart</button>
+                        </div>
+                      </div>
+                    </a>
+
+                    <div class="product_content_box">
+                      <span class="product_title"> Rolex </span>
+
+                      <a href="">
+                        <p class="product_desc">
+                          HP 14" Laptop - Silver Intel Core i3-1115G4/512GB
+                          SSD...
+                        </p>
+                      </a>
+
+                      <div class="review_box">
+                        <img
+                          src="../images,icons/svg/review.svg"
+                          alt="Review"
+                        />
+                        <img
+                          src="../images,icons/svg/review.svg"
+                          alt="Review"
+                        />
+                        <img
+                          src="../images,icons/svg/review.svg"
+                          alt="Review"
+                        />
+                        <img
+                          src="../images,icons/svg/review.svg"
+                          alt="Review"
+                        />
+                        <img
+                          src="../images,icons/svg/review.svg"
+                          alt="Review"
+                        />
+                        <span>3,014 reviews</span>
+                      </div>
+
+                      <div class="price_box">
+                        <strong>$18.144</strong>
+                        <span>$45</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -1666,5 +1673,34 @@
         </div>
       </div>
     </div>
+    <script>
+      document
+        .querySelectorAll(
+          ".selling_product_frame .product_wrapper .laptop_boxes .laptop_box",
+        )
+        .forEach((laptop) => {
+          laptop.setAttribute("role", "link");
+          laptop.tabIndex = 0;
+
+          const openProduct = () => {
+            window.location.href = "./choosenProduct.html";
+          };
+
+          laptop.addEventListener("click", (event) => {
+            event.preventDefault();
+
+            if (!event.target.closest("button")) {
+              openProduct();
+            }
+          });
+
+          laptop.addEventListener("keydown", (event) => {
+            if (event.key === "Enter" || event.key === " ") {
+              event.preventDefault();
+              openProduct();
+            }
+          });
+        });
+    </script>
   </body>
 </html>
