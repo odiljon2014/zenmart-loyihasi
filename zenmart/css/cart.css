@@ -1,0 +1,486 @@
+.cart_page {
+  position: relative;
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.cart_page .container .breadcrumb {
+  display: flex;
+  flex-direction: row;
+
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.cart_page .container .breadcrumb div {
+  font-family: "Jost";
+  font-style: Regular;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+
+  margin-left: 10px;
+  margin-bottom: 70px;
+}
+
+.cart_page .container .breadcrumb div:hover {
+  color: rgba(98, 105, 116, 1);
+
+  font-family: "Jost";
+  font-style: Regular;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.cart_page .container .cart_top strong {
+  font-family: "Jost";
+  font-style: Regular;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+
+  color: rgb(12, 6, 92);
+
+  margin-bottom: 80px;
+  margin-left: 670px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.cart_page .container .cart_top span {
+  font-family: "Jost";
+  font-style: Medium;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0%;
+  margin-left: 1050px;
+  margin-bottom: 10px;
+}
+.cart_page .container .cart_top .yol {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  margin-left: 650px;
+}
+
+.cart_page .container .cart_top .yol .chiziq_left {
+  width: 500px;
+  height: 5px;
+  background-color: rgba(247, 191, 5, 0.671);
+}
+
+.cart_page .container .cart_top .yol i {
+  border: 4px solid rgba(247, 191, 5, 0.671);
+  border-radius: 50%;
+  padding: 8px;
+}
+
+.cart_page .container .cart_top .yol .chiziq_right {
+  width: 500px;
+  height: 5px;
+  background-color: whitesmoke;
+}
+
+.cart_page .container .cart_bott {
+  display: flex;
+  flex-direction: column;
+}
+
+.cart_page .shopping_cart {
+  display: flex;
+  flex-direction: row;
+}
+
+.cart_page .shopping_cart .cart_bott .cart_left .past {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid whitesmoke;
+}
+
+.cart_page .shopping_cart .cart_bott .cart_left .past .products {
+  display: flex;
+  flex-direction: column;
+}
+
+.cart_page .shopping_cart .cart_bott .cart_left .past .product {
+  display: flex;
+  flex-direction: row;
+  margin-left: 40px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.cart_page .container .cart_bott .cart_left {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+
+.cart_page .container .cart_bott .cart_left .tepa {
+  background-color: rgb(245, 244, 244);
+  padding: 25px;
+  margin-bottom: 10px;
+}
+
+.cart_page .container .cart_bott .cart_left {
+  border-radius: 5px;
+}
+
+.cart_page .container .cart_bott .cart_left .tepa .span_1 {
+  margin-left: 0px;
+  margin-right: 350px;
+}
+
+.cart_page .container .cart_bott .cart_left span {
+  color: rgba(4, 30, 66, 1);
+
+  font-family: "Jost";
+  font-style: Medium;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0%;
+  text-align: left;
+
+  margin-left: 180px;
+  margin-right: 25px;
+}
+
+.cart_page .container .cart_bott .cart_left .bir_inchi {
+  margin-left: 0px;
+}
+
+.cart_page .container .cart_bott .cart_left .ikki_nchi {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+}
+
+.cart_page .container .cart_bott .cart_left .uch_inchi {
+  margin-left: 0px;
+}
+
+.cart_page .shopping_cart .cart_bott .cart_left .past .product .span {
+  display: flex;
+  flex-direction: column;
+  margin-left: 80px;
+}
+
+.cart_page .cart_bott .cart_left .past .products .product .narsa {
+  display: flex;
+  flex-direction: row;
+}
+
+.cart_page .cart_bott .cart_left .past .products .product .price {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+}
+
+/* SON */
+
+.cart_page .product .son .narsa_soni {
+  border: 1px solid rgba(234, 234, 234, 1);
+  border-radius: 50%;
+
+  width: 154px;
+  height: 55px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  margin-left: 150px;
+}
+
+.cart_page .product .son .narsa_soni div {
+  width: 10.54px;
+  height: 22px;
+
+  color: rgba(4, 30, 66, 1);
+
+  font-family: "Jost";
+  font-style: Regular;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: center;
+
+  border: 1px solid rgba(234, 234, 234, 1);
+  border-radius: 100%;
+
+  display: flex;
+  flex-direction: row;
+  margin-top: 16px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+
+  padding: 5px 5px 5px 5px;
+}
+
+.cart_page .product .son .narsa_soni .sttrong {
+  border: none;
+  outline: none;
+
+  margin-left: 20px;
+  margin-top: 0px;
+  width: 35px;
+  height: 30px;
+
+  border-radius: 50%;
+
+  padding-left: 10px;
+}
+
+.cart_page .product .son .narsa_soni .strong {
+  border: none;
+  outline: none;
+
+  margin-left: 5px;
+  margin-top: 0px;
+  width: 35.13px;
+  height: 30px;
+
+  border-radius: 50%;
+  border-width: 10px;
+}
+
+.cart_page .product .son .narsa_soni .sttrong:hover {
+  border: none;
+  outline: none;
+
+  background: whitesmoke;
+
+  padding: 5px;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.cart_page .product .son .narsa_soni .strong:hover {
+  border: none;
+  outline: none;
+
+  background: whitesmoke;
+}
+
+.cart_page .products .chiziq {
+  width: 100%;
+  height: 1px;
+  background-color: whitesmoke;
+  margin-bottom: 10px;
+}
+
+.cart_page .shopping_cart .eng_past {
+  display: flex;
+  flex-direction: column;
+}
+
+.eng_past .left {
+  border: 1px solid black;
+  border-radius: 7px;
+
+  width: 500px;
+  height: 50px;
+
+  margin-top: 10px;
+}
+
+.eng_past .left a {
+  color: black;
+
+  font-family: "Jost";
+  font-style: Medium;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-decoration: underline;
+}
+
+.cart_page .cart_bott .cart_right {
+  display: flex;
+  flex-direction: row;
+
+  margin-left: 1100px;
+  margin-bottom: 10px;
+
+  width: 100%;
+  height: auto;
+}
+
+.cart_page .cart_bott .cart_right .sariq_1 span {
+  font-family: "Jost";
+  font-style: Medium;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0%;
+  text-align: left;
+
+  border: 1px solid rgba(247, 191, 5, 0.671);
+  border-radius: 8px;
+  padding: 10px 10px;
+}
+
+.cart_page .cart_bott .cart_right .sariq_2 span {
+  font-family: "Jost";
+  font-style: Medium;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0%;
+  text-align: left;
+
+  background: rgba(247, 191, 5, 0.671);
+  border-radius: 8px;
+  padding: 10px 10px;
+  margin-left: 10px;
+}
+
+.cart_page .shopping_right {
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 205px;
+  margin-left: 10px;
+
+  border: 1px solid whitesmoke;
+  border-radius: 5px;
+
+  width: 400px;
+  height: auto;
+
+  padding-top: 50px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.cart_page .shopping_right .cart_total .cart_total_top {
+  margin-bottom: 30px;
+}
+
+.cart_page .shopping_right .cart_total .cart_total_top strong {
+  font-family: "Jost";
+  font-style: normal;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.cart_page .shopping_right .total {
+  display: flex;
+  flex-direction: row;
+}
+
+.cart_page .cart_total .cart_total_bott .total_left {
+  font-family: "Jost";
+  font-style: normal;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: center;
+
+  margin-right: 30px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.cart_page .cart_total_bott .total_left span {
+  margin-top: 10px;
+}
+
+.cart_page .cart_total_bott .total_right {
+  font-family: "Jost";
+  font-style: normal;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: center;
+
+  margin-left: 200px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.cart_page .cart_total_bott .total_right span {
+  margin-top: 10px;
+}
+
+.cart_page .cart_total_bott .total_right .qizil {
+  color: red;
+}
+
+.cart_page .cart_total_bott .all .chiziq {
+  width: 100%;
+  height: 1px;
+  background: whitesmoke;
+  margin-top: 5px;
+}
+
+.cart_page .cart_total_bott .all .ikkita {
+  display: flex;
+  flex-direction: row;
+}
+
+.cart_page .cart_total_bott .all .ikkita .total_left {
+  font-family: "Jost";
+  font-style: normal;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 22px;
+  text-align: center;
+}
+
+.cart_page .cart_total_bott .all .ikkita .total_right {
+  font-family: "Jost";
+  font-style: normal;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 22px;
+  text-align: center;
+
+  margin-left: 280px;
+}
+
+.cart_page .cart_total_bott .buy_button {
+  font-family: "Jost";
+  font-style: normal;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 22px;
+  text-align: center;
+
+  background: rgba(247, 191, 5, 0.671);
+  border-radius: 5px;
+
+  padding: 20px 0px;
+  margin-top: 50px;
+}

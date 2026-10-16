@@ -1,0 +1,884 @@
+.chosenprodoct_page {
+  position: relative;
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.chosenprodoct_page .container {
+  display: flex;
+  flex-direction: column;
+}
+
+.chosenprodoct_page .tepa_sozlar {
+  margin-left: 140px;
+  margin-top: 20px;
+}
+
+.chosenprodoct_page .tepa_sozlar :hover {
+  border-bottom: 1px solid black;
+}
+
+.chosenprodoct_page .tepa_soz {
+  margin-left: 30px;
+
+  color: rgba(4, 30, 66, 1);
+
+  font-family: "Jost";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.chosenprodoct_page .tepa_sozl {
+  margin-right: 70px;
+
+  color: rgba(4, 30, 66, 1);
+
+  font-family: "Jost";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.chosenprodoct_page .category_slide {
+  border: 1px solid rgba(234, 234, 234, 1);
+  width: 1900px;
+  height: auto;
+  margin: 25px;
+}
+
+.chosenprodoct_page .breadcrumb {
+  margin-left: 10px;
+  margin-bottom: 20px;
+
+  display: flex;
+  flex-direction: row;
+
+  font-family: "Jost";
+  font-style: Regular;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.chosenprodoct_page .breadcrumb div {
+  font-family: var(--font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: black;
+}
+
+.chosenprodoct_page .breadcrumb {
+  margin-right: 1285px;
+}
+
+.chosenprodoct_page .breadcrumb .uch_inchi {
+  margin-left: 30px;
+}
+
+.chosenprodoct_page .choosen_product {
+  margin-bottom: 30px;
+}
+
+.chosenprodoct_page .container .narsa_haqida {
+  display: flex;
+  flex-direction: row;
+}
+
+.chosenprodoct_page .container .narsa_top {
+  display: flex;
+  flex-direction: row;
+}
+
+.chosenprodoct_page .choosen_image {
+  width: 100%;
+  height: 315px;
+  object-fit: contain;
+  display: block;
+}
+
+.chosenprodoct_page .choosen_image span {
+  display: flex;
+  justify-content: center;
+}
+
+.chosenprodoct_page .choosen_product .small_images {
+  margin-top: 20px;
+  margin-right: 105px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.chosenprodoct_page .choosen_image .product_small_image {
+  display: flex;
+  flex-direction: row;
+}
+
+.chosenprodoct_page .choosen_image .product_small_image:hover {
+  border: 1px solid rgb(55, 55, 131);
+  border-radius: 10%;
+}
+
+.chosenprodoct_page .choosen_image .product_small_image img {
+  width: 50px;
+  height: auto;
+  margin-left: 100px;
+}
+
+.chosenprodoct_page .choosen_image .product_big_image {
+  margin-right: 50px;
+  width: 620px;
+  height: 685;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.chosenprodoct_page .product_2 .product_tepa {
+  display: flex;
+  flex-direction: row;
+}
+
+.chosenprodoct_page .choosen_product .span {
+  color: rgba(98, 105, 116, 1);
+
+  font-family: "Jost";
+  font-style: Regular;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.chosenprodoct_page .choosen_product {
+  display: flex;
+  flex-direction: row;
+}
+
+.chosenprodoct_page .choosen_product .orta_chiziq {
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 1px;
+  height: 30px;
+
+  background: rgba(234, 234, 234, 1);
+
+  display: flex;
+  flex-direction: column;
+}
+
+.chosenprodoct_page .choosen_product .start_image {
+  display: flex;
+  flex-direction: row;
+}
+
+.chosenprodoct_page .choosen_product .start_image img {
+  width: 17px;
+  height: 17px;
+}
+
+.chosenprodoct_page .spann {
+  margin-left: 15px;
+  color: rgba(98, 105, 116, 1);
+
+  font-family: "Jost";
+  font-style: Regular;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.choosen_bott_text {
+  display: flex;
+  flex-direction: column;
+}
+
+.choosen_bott_text .narxlar {
+  display: flex;
+  flex-direction: row;
+}
+
+.choosen_bott_text .narxlar p {
+  margin-top: 35px;
+}
+
+.chosenprodoct_page strong {
+  margin-top: 30px;
+  margin-right: 40px;
+
+  color: rgba(4, 30, 66, 1);
+
+  font-family: "Jost";
+  font-style: Medium;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0%;
+  text-align: left;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.chosenprodoct_page .choosen_product .choosen_chiziq {
+  margin-bottom: 0px;
+  margin-top: 0px;
+
+  width: 1100px;
+  height: 1px;
+  background: rgba(234, 234, 234, 1);
+
+  margin-top: 110px;
+
+  margin-right: 30px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.chosenprodoct_page .choosen_product strong {
+  color: rgba(4, 30, 66, 1);
+
+  font-family: "Jost";
+  font-style: Medium;
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 38px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.chosenprodoct_page .choosen_product p {
+  color: rgba(98, 105, 116, 1);
+
+  font-family: "Jost";
+  font-style: Regular;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-decoration-line: line-through;
+  margin-bottom: 15px;
+}
+
+.chosenprodoct_page .choosen_product .shu_haqida {
+  color: rgba(4, 30, 66, 1);
+
+  font-family: "Jost";
+  font-style: Medium;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+
+  margin-top: 10px;
+}
+
+.chosenprodoct_page .choosen_product .javob_narsa {
+  color: rgba(4, 30, 66, 1);
+
+  font-family: "Jost";
+  font-style: Regular;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+
+  margin-left: 300px;
+  margin-bottom: 30px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.chosenprodoct_page .choosen_product .javob_narsa span {
+  margin-top: 10px;
+}
+
+.chosenprodoct_page .choosen_product {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.chosenprodoct_page .choosen_product .narsa_soni {
+  border: 1px solid rgba(234, 234, 234, 1);
+  border-radius: 50%;
+
+  width: 154px;
+  height: 55px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.chosenprodoct_page .choosen_product .narsa_soni div {
+  width: 10.54px;
+  height: 22px;
+
+  color: rgba(4, 30, 66, 1);
+
+  font-family: "Jost";
+  font-style: Regular;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: center;
+
+  border: 1px solid rgba(234, 234, 234, 1);
+  border-radius: 100%;
+
+  display: flex;
+  flex-direction: row;
+  margin-top: 16px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+
+  padding: 5px 5px 5px 5px;
+}
+
+.chosenprodoct_page .choosen_product .narsa_soni .sttrong {
+  border: none;
+  outline: none;
+
+  margin-left: 20px;
+  margin-top: 0px;
+  width: 35px;
+  height: 30px;
+
+  border-radius: 50%;
+
+  padding-left: 10px;
+}
+
+.chosenprodoct_page .choosen_product .narsa_soni .strong {
+  border: none;
+  outline: none;
+
+  margin-left: 5px;
+  margin-top: 0px;
+  width: 35.13px;
+  height: 30px;
+
+  border-radius: 50%;
+  border-width: 10px;
+}
+
+.chosenprodoct_page .choosen_product .narsa_soni .sttrong:hover {
+  border: none;
+  outline: none;
+
+  background: whitesmoke;
+
+  padding: 5px;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.chosenprodoct_page .choosen_product .narsa_soni .strong:hover {
+  border: none;
+  outline: none;
+
+  background: whitesmoke;
+}
+
+.chosenprodoct_page .choosen_product .choosen_text {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.chosenprodoct_page .choosen_product .ikki_rang {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 20px;
+}
+
+.chosenprodoct_page .choosen_product .ikki_rang .rang_1 div {
+  margin-right: 10px;
+
+  width: 175.64px;
+  height: 52px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 15px 35px 15px 35px;
+
+  box-sizing: border-box;
+  border: 1px solid rgba(245, 195, 75, 1);
+  border-radius: 60px;
+  background: rgba(245, 195, 75, 1);
+}
+
+.chosenprodoct_page .choosen_product .ikki_rang .rang_2 div {
+  width: 175.64px;
+  height: 52px;
+
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  gap: 10px;
+  padding: 15px 35px 15px 35px;
+
+  box-sizing: border-box;
+  border: 1px solid rgba(68, 50, 151, 1);
+  border-radius: 60px;
+  background: rgba(68, 50, 151, 1);
+
+  color: rgba(255, 255, 255, 1);
+
+  font-family: "Jost";
+  font-style: Medium;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: center;
+
+  padding-left: 50px;
+}
+
+.chosenprodoct_page .choosen_product .katta_chiziq {
+  width: 637px;
+  height: 1px;
+
+  background: rgba(234, 234, 234, 1);
+}
+
+.chosenprodoct_page .choosen_product .icons {
+  display: flex;
+  flex-direction: row;
+}
+
+.chosenprodoct_page .ikkinchi {
+  margin-bottom: 20px;
+  margin-right: 200px;
+
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.chosenprodoct_page .choosen_text .icons {
+  margin-top: 40px;
+}
+
+.chosenprodoct_page .choosen_text .icons img {
+  width: 40px;
+  height: 20px;
+}
+
+.chosenprodoct_page .ikkinchi .katta_chiziiqq {
+  width: 1000px;
+  height: 1px;
+
+  background: rgba(234, 234, 234, 1);
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-right: 30px;
+}
+
+.chosenprodoct_page .ikkinchi .model_nomi {
+  margin-top: 15px;
+  margin-right: 700px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.chosenprodoct_page .ikkinchi .model_nomi .spanlar {
+  display: flex;
+  flex-direction: column;
+}
+
+.chosenprodoct_page .ikkinchi .model_nomi span {
+  font-family: "Jost";
+  font-style: Medium;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.chosenprodoct_page .ikkinchi .share_icons {
+  display: flex;
+  flex-direction: row;
+
+  margin-top: 20px;
+}
+
+.chosenprodoct_page .ikkinchi .share_icons span {
+  font-family: "Jost";
+  font-style: Medium;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.chosenprodoct_page .ikkinchi .share_icons i {
+  margin-left: 10px;
+}
+
+.chosenprodoct_page .uchinchi {
+  display: flex;
+  flex-direction: column;
+}
+
+.chosenprodoct_page .uchinchi .icons {
+  display: flex;
+  flex-direction: column;
+}
+
+.chosenprodoct_page .ikkinchi .katta_chiziq {
+  width: 700px;
+  height: 1px;
+
+  background: rgba(234, 234, 234, 1);
+
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.chosenprodoct_page .uchinchi .icon_1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.chosenprodoct_page .uchinchi .icon_1 span {
+  font-family: "Jost";
+  font-style: Medium;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: center;
+
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.chosenprodoct_page .uchinchi .icon_1 img {
+  width: 35px;
+  height: 35px;
+}
+
+.chosenprodoct_page .uchinchi .icon_2 {
+  display: flex;
+  flex-direction: row;
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.chosenprodoct_page .uchinchi .icon_2 span {
+  font-family: "Jost";
+  font-style: Medium;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: center;
+
+  margin-left: 10px;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.chosenprodoct_page .uchinchi .icon_2 .span {
+  font-family: "Jost";
+  font-style: Medium;
+  font-size: 15px;
+  font-weight: 800;
+  line-height: 25px;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.chosenprodoct_page .uchinchi .icon_2 img {
+  width: 35px;
+  height: 35px;
+}
+
+.chosenprodoct_page .uchinchi .icon_3 {
+  display: flex;
+  flex-direction: row;
+}
+
+.chosenprodoct_page .uchinchi .icon_3 span {
+  font-family: "Jost";
+  font-style: Medium;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: center;
+
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.chosenprodoct_page .uchinchi .icon_3 img {
+  width: 35px;
+  height: 35px;
+}
+
+.chosenprodoct_page .uchinchi .icon_3 a {
+  font-family: "Jost";
+  font-style: Medium;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: center;
+
+  color: rgb(5, 6, 75);
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.chosenprodoct_page .uchinchi .icon_3 a:hover {
+  border-bottom: 1px solid rgb(5, 6, 75);
+}
+
+.chosenprodoct_page .bolim_2 .katta_chiziq {
+  width: 1400px;
+  height: 1px;
+  background: rgba(234, 234, 234, 1);
+
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+.chosenprodoct_page .bolim_2 .haqida a {
+  font-family: "Jost";
+  font-style: Medium;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0%;
+
+  margin-right: 30px;
+
+  color: black;
+}
+
+.chosenprodoct_page .bolim_2 .haqida a:hover {
+  border-bottom: 1px solid black;
+}
+
+.chosenprodoct_page .bolim_2 .chiziq_2 {
+  width: 1400px;
+  height: 1px;
+  background: rgba(234, 234, 234, 1);
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.chosenprodoct_page .bolim_2 .information_small .birinchi {
+  font-family: "Jost";
+  font-style: Medium;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0%;
+}
+
+.chosenprodoct_page .bolim_2 .information_big {
+  margin-bottom: 20px;
+}
+
+.chosenprodoct_page .bolim_2 .information_big .ikkinchi {
+  font-family: "Jost";
+  font-style: Medium;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0%;
+}
+
+.chosenprodoct_page .bolim_2 .information_big ul li {
+  font-family: "Jost";
+  font-style: Medium;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0%;
+
+  margin-top: 10px;
+}
+
+.chosenprodoct_page .related_products {
+  margin-top: 20px;
+}
+
+/* 1 */
+
+.chosenprodoct_page .related_products .laptop_boxes {
+  display: flex;
+  flex-direction: row;
+}
+
+.chosenprodoct_page .related_products .laptop_boxes .laptop_box {
+  border: 1px solid whitesmoke;
+}
+
+.container .related_products .laptop_boxes .laptop_box .product_title {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #626974;
+}
+
+.related_products .laptop_box .product_desc {
+  margin-top: 7px;
+
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: #041e42;
+  text-decoration-line: none;
+}
+
+.related_products .laptop_box .price_box {
+  display: flex;
+  flex-direction: column;
+}
+
+.related_products .laptop_box .price_box strong {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.related_products .laptop_box .price_box span {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  text-decoration-line: line-through;
+  color: #626974;
+}
+
+.related_products .laptop_box .review_box span {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #626974;
+}
+
+.chosenprodoct_page .also_like {
+  display: flex;
+  flex-direction: column;
+}
+
+/* 2 */
+
+.chosenprodoct_page .also_like .laptop_boxes .laptop_box {
+  border: 1px solid whitesmoke;
+}
+
+.container .also_like .laptop_boxes .laptop_box .product_title {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #626974;
+}
+
+.also_like .laptop_box .product_desc {
+  margin-top: 7px;
+
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: #041e42;
+  text-decoration-line: none;
+}
+
+.also_like .laptop_box .price_box {
+  display: flex;
+  flex-direction: column;
+}
+
+.also_like .laptop_box .price_box strong {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.also_like .laptop_box .price_box span {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  text-decoration-line: line-through;
+  color: #626974;
+}
+
+.also_like .laptop_box .review_box span {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #626974;
+}
