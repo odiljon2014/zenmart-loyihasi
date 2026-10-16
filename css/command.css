@@ -68,6 +68,9 @@ p {
   flex-direction: row;
   width: 100%;
   height: auto;
+
+  display: flex;
+  flex-direction: row;
 }
 
 .navbar_frame .navbar_top .nav_search_frame {

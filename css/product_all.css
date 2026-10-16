@@ -361,12 +361,32 @@
 .container .product_img_box .hover_box {
   position: relative;
   display: none;
-  width: 100%;
-  height: 100%;
+  width: 0px;
+  height: 0px;
+}
 
-  flex-direction: column;
-  justify-content: flex-end;
+.container .product_img_box .hover_box:hover {
+  width: 260px;
+  height: 50px;
+
+  display: flex;
   align-items: center;
+  justify-content: center;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+
+  background: #0053f6;
+  box-shadow: 8px 5px 20px rgba(0, 83, 246, 0.1);
+
+  font-family: "Jost";
+  font-size: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  margin-bottom: 10px;
+
+  color: #ffffff;
 }
 
 .container .product_content_box {
@@ -546,37 +566,6 @@
   flex-direction: row;
 }
 
-.shop_page .laptop_box .hover_box {
-  position: relative;
-  display: none;
-  width: 100%;
-  height: 100%;
-}
-
-.container .laptop_box .hover_box :hover {
-  width: 260px;
-  height: 50px;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  outline: none;
-  border: none;
-  border-radius: 10px;
-
-  background: #0053f6;
-  box-shadow: 8px 5px 20px rgba(0, 83, 246, 0.1);
-
-  font-family: "Jost";
-  font-size: normal;
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 22px;
-  margin-bottom: 10px;
-
-  color: #ffffff;
-}
-
 .container .laptop_box .laptop_image_box {
   width: 200px;
   height: 200px;
@@ -591,8 +580,25 @@
   display: flex;
   flex-direction: column;
 
+  position: relative;
   border: 1px solid whitesmoke;
   cursor: pointer;
+}
+
+.container .laptop_boxes .laptop_box .laptop_box_link {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+
+.container .laptop_boxes .laptop_box .laptop_box_link:focus-visible {
+  outline: 2px solid #041e42;
+  outline-offset: -2px;
+}
+
+.container .laptop_boxes .laptop_box .hover_box button {
+  position: relative;
+  z-index: 2;
 }
 
 .container .laptop_boxes .laptop_box img {
